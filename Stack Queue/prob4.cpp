@@ -4,31 +4,19 @@ using namespace std;
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        stack<char> s1;
-        stack<char> s2;
-
-        // Xử lý chuỗi s
-        for (char x : s) {
-            if (x != '#') s1.push(x);
-            else if (!s1.empty()) s1.pop();
+        stack<char> s1 = process(s);
+        stack<char> s2 = process(t);
+        return s1 == s2;
+    }
+private: 
+    stack<char> process(string str) {
+        stack<char> stack;
+        for (char &x : str) {
+            if (x != '#') stack.push(x);
+            else if (!stack.empty()) stack.pop();
         }
 
-        // Xử lý chuỗi t
-        for (char x : t) {
-            if (x != '#') s2.push(x);
-            else if (!s2.empty()) s2.pop();
-        }
-
-        // So sánh 2 stack
-        if (s1.size() != s2.size()) return false;
-
-        while (!s1.empty()) {
-            if (s1.top() != s2.top()) return false;
-            s1.pop();
-            s2.pop();
-        }
-
-        return true;
+        return stack;
     }
 };
 

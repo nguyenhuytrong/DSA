@@ -4,7 +4,7 @@ using namespace std;
 
 class MyStack { 
 private:
-    queue<int> q;
+    queue<int> q; 
 public:
     MyStack() {
 
