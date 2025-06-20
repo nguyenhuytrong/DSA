@@ -1,6 +1,5 @@
 t = int(input())
 
-count = [0] * 150
 for _ in range (t):
     count = [0] * 150
     n = int(input())
