@@ -12,8 +12,8 @@
 - `q.push(x)`: add the element to the back
 
 ### Problems
-- Prob1: 
-- Prob2:
+- Prob1: [Valid Parentheses](https://leetcode.com/submissions/detail/1666998112/)
+- Prob2: [Implement Stack using Queues](https://leetcode.com/submissions/detail/1668523928/)
 - Prob3: 
 - Prob4:
 - Prob5: 
