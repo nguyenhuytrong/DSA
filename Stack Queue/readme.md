@@ -12,9 +12,10 @@
 - `q.push(x)`: add the element to the back
 
 ### Problems
-- Prob1: [Valid Parentheses](https://leetcode.com/submissions/detail/1666998112/)
-- Prob2: [Implement Stack using Queues](https://leetcode.com/submissions/detail/1668523928/)
-- Prob3: 
-- Prob4:
-- Prob5: 
-- Prob6: 
+- Prob1: [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+- Prob2: [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)
+- Prob3: [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) 
+- Prob4: [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/)
+- Prob5: [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
+- Prob6: [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
+- Prob7: [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)

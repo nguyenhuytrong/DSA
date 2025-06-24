@@ -1,45 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
-public:
-    bool backspaceCompare(string s, string t) {
-        stack<char> s1 = process(s);
-        stack<char> s2 = process(t);
-        return s1 == s2;
-    }
-private: 
-    stack<char> process(string str) {
-        stack<char> stack;
-        for (char &x : str) {
-            if (x != '#') stack.push(x);
-            else if (!stack.empty()) stack.pop();
-        }
+class RecentCounter {
+private:
+    queue<int> q;
 
-        return stack;
+public:
+    RecentCounter() {
+        // khởi tạo không cần gì thêm, queue tự động trống
+    }
+
+    int ping(int t) {
+        q.push(t);
+        while (!q.empty() && q.front() < t - 3000) {
+            q.pop();
+        }
+        return q.size();
     }
 };
 
 int main() {
-    Solution sol;
-
-    // Test case 1
-    string s1 = "ab#c";
-    string t1 = "ad#c";
-    cout << boolalpha << "Compare(\"" << s1 << "\", \"" << t1 << "\") = " 
-         << sol.backspaceCompare(s1, t1) << endl;  // true
-
-    // Test case 2
-    string s2 = "ab##";
-    string t2 = "c#d#";
-    cout << "Compare(\"" << s2 << "\", \"" << t2 << "\") = " 
-         << sol.backspaceCompare(s2, t2) << endl;  // true
-
-    // Test case 3
-    string s3 = "a#c";
-    string t3 = "b";
-    cout << "Compare(\"" << s3 << "\", \"" << t3 << "\") = " 
-         << sol.backspaceCompare(s3, t3) << endl;  // false
-
-    return 0;
+    RecentCounter rc;
+    cout << rc.ping(1) << endl;      // 1
+    cout << rc.ping(100) << endl;    // 2
+    cout << rc.ping(3001) << endl;   // 3
+    cout << rc.ping(3002) << endl;   // 3
 }
