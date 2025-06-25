@@ -19,3 +19,4 @@
 - Prob5: [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 - Prob6: [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)
 - Prob7: [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)
+- Prob8: [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)
