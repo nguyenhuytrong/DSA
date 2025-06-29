@@ -16,10 +16,14 @@
 - Totally different values
 - Automatically sorted in ascending order
 - Searching: O(logN)
-- Cannot access through index like array, vector, string
+- Cannot access through index like array, vector, string but through the `key`
 
 - Some common function: `.size()`, `.insert()`, `,empty()`, `.clear()`, `.find()`, `.count()`, `.erase()`, `.lower_bound()`, `.upper_bound()`, `.first`, `.second`.
 
 - Use iterator with `lower_bound()` and `upper_bound()`
 
 - More: `multimap` and `unordered_map`
+
+### Problems
+- Prob1: [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+- Prob2: [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
