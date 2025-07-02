@@ -27,3 +27,5 @@
 ### Problems
 - Prob1: [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 - Prob2: [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+- Prob3: [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
+- Prob4:
