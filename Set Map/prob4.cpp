@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-"""
 class Solution1 {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -20,7 +19,6 @@ public:
         return res;
     }
 };
-"""
 
 class Solution2 {
 public:
