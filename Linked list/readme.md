@@ -82,4 +82,7 @@ void DeleteAtPosition (int index) {
     curr->next = curr->next->next;
 }
 ```
-
+## Problems
+- Prob1: [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+- Prob2: [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
+- Prob3: [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
