@@ -101,7 +101,7 @@ void DeleteAtPosition (int index) {
 ```
 **Lưu ý**
 
-- Luôn kiểm tra nullptr trước khi truy cập. Nếu `curr == nullptr` mà vẫn `curr->next` → `segmentation fault`
+- Luôn kiểm tra `nullptr` trước khi truy cập. Nếu `curr == nullptr` mà vẫn `curr->next` → `segmentation fault`
 
 ``` 
 if (curr != nullptr) curr = curr->next;
