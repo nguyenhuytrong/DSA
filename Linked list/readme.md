@@ -1,4 +1,21 @@
-## Linked list 
+## Linked List 
+Mỗi node có data + next (chỉ ra node tiếp theo)
+
+Node đầu tiên gọi là `head`
+
+Node cuối cùng có `next = nullptr` (không còn toa nào nối tiếp)
+
+Ta sẽ dùng con trỏ `*` để khởi tạo một Linked List mới, với `head` trỏ vào `10` 
+```
+Node* head = new Node(10);      
+head->next = new Node(20);     
+head->next->next = new Node(30);
+
+head → [10 | next] → [20 | next] → [30 | next] → nullptr
+```
+
+**Các thao tác cơ bản**
+
 - Khởi tạo node trong linked list (Define)
 ```
 class Node {
@@ -82,6 +99,26 @@ void DeleteAtPosition (int index) {
     curr->next = curr->next->next;
 }
 ```
+**Lưu ý**
+
+- Luôn kiểm tra nullptr trước khi truy cập. Nếu `curr == nullptr` mà vẫn `curr->next` → `segmentation fault`
+
+``` 
+if (curr != nullptr) curr = curr->next;
+```
+- Dummy Node 
+
+Dummy node là node giả đứng trước `head`, khai báo `Node* dummy = new Node(-1)`
+
+Sau khi thao tác, kết quả thực sự bắt đầu từ `dummy->next`
+
+- Thêm/xóa node cần cẩn thận thứ tự thao tác
+Nếu thay đổi next sai → mất liên kết cả danh sách còn lại
+
+Luôn lưu next tạm thời trước khi sửa: `Node* nextNode = curr->next`
+
+
+
 ## Problems
 - Prob1: [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 - Prob2: [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
