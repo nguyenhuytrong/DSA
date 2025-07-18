@@ -113,6 +113,7 @@ Dummy node là node giả đứng trước `head`, khai báo `Node* dummy = new 
 Sau khi thao tác, kết quả thực sự bắt đầu từ `dummy->next`
 
 - Thêm/xóa node cần cẩn thận thứ tự thao tác
+
 Nếu thay đổi next sai → mất liên kết cả danh sách còn lại
 
 Luôn lưu next tạm thời trước khi sửa: `Node* nextNode = curr->next`
