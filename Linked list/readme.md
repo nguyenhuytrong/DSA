@@ -126,3 +126,4 @@ Luôn lưu next tạm thời trước khi sửa: `Node* nextNode = curr->next`
 - Prob3: [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
 - Prob4: [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 - Prob5: [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+- Prob6: [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description)
