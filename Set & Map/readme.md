@@ -18,7 +18,7 @@
 - Searching: O(logN)
 - Cannot access through index like array, vector, string but through the `key`
 
-- Some common function: `.size()`, `.insert()`, `,empty()`, `.clear()`, `.find()`, `.count()`, `.erase()`, `.lower_bound()`, `.upper_bound()`, `.first`, `.second`.
+- Some common function: `.size()`, `.insert()`, `.empty()`, `.clear()`, `.find()`, `.count()`, `.erase()`, `.lower_bound()`, `.upper_bound()`, `.first`, `.second`.
 
 - Use iterator with `lower_bound()` and `upper_bound()`
 
@@ -29,3 +29,4 @@
 - Prob2: [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
 - Prob3: [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
 - Prob4: [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)
+- Prob5: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
