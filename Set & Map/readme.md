@@ -30,3 +30,4 @@
 - Prob3: [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
 - Prob4: [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)
 - Prob5: [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+- Prob6: [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
